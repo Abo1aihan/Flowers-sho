@@ -1,0 +1,482 @@
+body{
+    margin:0px;
+}
+.header{
+    padding-top:10.43px;
+    padding-bottom:10.43px;
+    margin:auto;
+    max-width:1920px;
+    width:100%;
+    background: #5B4A58;
+}
+.content{
+    width:100%;
+    align-items:center;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    max-width:calc(1920px - 812px);
+}
+.city{
+    color: #6AAE55;
+    font-size:16px;;
+}
+.header-address{
+    display: flex;
+    align-items: center;
+}
+.header-address img {
+    margin-right: 8px;;
+}
+.header-phone{
+    display:flex;
+    align-items:center;
+}
+.header-phone img{
+    margin-right:8px;
+}
+.header-cart{
+    display: flex;
+    align-items:center;
+}
+.header-cart img{
+    margin-right:8px;
+}
+.header a{
+    color:white;
+}
+.header-menu{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.menu-item{
+    display:flex;
+    align-items:center;
+}
+.menu-item-user{
+    margin-right:8px;
+}
+.menu-item-arrow{
+    margin-left:8px;
+}
+.currency{
+    flex-direction:column;
+}
+.order-deliv{
+    display: flex;
+    flex-direction: column;
+}
+.oreder{
+    background:url('./images/flowers.jpg');
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:1927px;
+    width:100%;
+    height: 699px;
+}
+.city-delivery{
+    display:inline-block
+}
+.delivery{
+    color:green;
+}
+.city-vladivostok{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    color:#5B4A58
+}
+.order-deliv{
+    width:500px;
+    height:120px;
+    margin-bottom:50px;
+}
+.city-vladiivostok-shrift{
+    font-size:50px;
+}
+.order-delive{
+    width:50px;
+    height:50px;
+    margin-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.advatages{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.present{
+    margin-left:10px;
+    margin-right:10px;
+}
+.percent{
+    margin-right:10px;
+}
+.roses{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rose{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:263px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.price{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 19px;
+    color: #5B4A58;
+    margin-right: 120px;
+    display:flex;
+}
+.addred{
+    margin-top: 21px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    padding-left: 69px;
+    padding-right: 68px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: green;
+}
+.sorting{
+    color: #828282;
+}
+
+.container{
+    padding-top: 100px;
+    display: flex;
+    background-color: #e5e5e5;
+}
+.sorting-wrapper{ 
+    padding-left: 15px;
+    padding-right: 55px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    
+    height: 1068px;
+    background-color: #FFFFFF;
+    min-width: 262px;
+}
+.container .content{
+    gap:8px;
+    align-items: flex-start;
+}
+.price2{
+    color: #828282;
+    margin-left: 23px;
+}
+.price3{
+    margin-left: 17px;
+}
+.filter-money{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    color: #4F4F4F;
+    height: 28px;
+}
+.chapter{
+    color: #BDBDBD;
+    margin-top: 34px;
+}
+.search{
+    margin-left: 14px;
+}
+.filter-wrapper{
+    margin-left: 14px;
+}
+.ps{
+    display: flex;
+    justify-content: center;
+    color: #BDBDBD;
+
+}
+.search-box{
+    margin-top: 17px;
+    margin-left: 14px;
+    
+   
+}
+.search-txt{
+    border-radius: 10px;
+    width: 233px;
+    height: 50px;
+    background-color: #FAFAFA;
+}
+
+.order-rules{
+    max-width: 100%;
+    width: 1920px;
+    height: 618px;
+    
+}
+.order{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.order-text{
+    color: green;
+}
+.rules{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rules-wrapper{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+.rules-text{
+    
+    margin-left: 23px;
+    width: 343px;
+    height: 88px;
+}
+.rules-text-color{
+    margin-bottom: 13px;
+    display: block;
+    color: green;
+}
+.rules-wrapper2{
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+.reviews-wrapper{
+    width: 1920px;
+    max-width: 100%;
+    height: 690px;
+    background-color: #e5e5e5;
+}
+.photo-reviwes{
+    
+    margin-right: 95px;
+    margin-top: 117px;
+    display: inline-flex;
+    
+}
+.photo-reviwes1{
+    size: 26px;
+    color:brown;
+}
+.photo-reviwes2{
+    size: 26px;
+    color:green;
+}
+.more-reviwes{
+    color:Green ;
+    size: 16px;
+    width: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.flowers-reviwes{
+    border-radius: 10px;
+    margin-top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.flowers-reviwes1{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.flowers-reviwes4{
+    margin-left: 10px;
+}
+.reviews{
+    
+    margin-top: 117px;
+    width: 692px;
+    height: 410px;
+}
+.reviwes1{
+    margin-top: 28px;
+    width: 600px;
+    height: 100px;
+}
+.reviwes-reviwes1{
+    color: Green;
+    display: flex;
+}
+.reviwes-reviwes4{
+    font-size: 12px;
+    margin-right: 14px;
+    color: Gray ;
+}
+.reviwes-reviwes5{
+    font-size: 12px;
+    color:gray;
+}
+.reviwes-reviwes3{
+    display: block;
+    color: #7E6579;
+    margin-top: 8px;
+}
+.reviwes-reviwes-wrapper{
+    margin-top: 17px;
+    margin-bottom: 21px;
+}
+.reviwes-reviwes-wrapper{
+    margin-bottom: 21px;
+}
+.see-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.see{
+    color:Brown;
+    font-size: 26px;
+}
+.see1{
+    color:Green;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+
+}
+.description-wrapper{
+    width: 1931px;
+    height: 340px;
+    background-color: #F0F0F0;
+}
+.description1{
+    display: block;
+    margin-top: 59px;
+    color: Gray ;
+}
+.description{
+    display: block;
+    
+    color: Gray ;
+}
+.catalog-wrapper{
+    background-color: #746471;
+    width: 1919px;
+    height: 88px;
+}
+.catalog{
+    padding-top: 33px;
+}
+.catalog-wrapper1{
+    color: white;
+}
+.information-wrapper{
+    background-color: Brown;
+    width: 1922px;
+    height: 350px;
+}
+.visitors-wrapper{
+    margin-top: 28px;
+    height: 190px;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.visitors{
+    font-size: 18px;
+    color:green;
+    display: block;
+}
+.visitors1{
+    color: #FFFFFF;
+    display: block;
+}
+.information{
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    width:190px;
+    height: 190px;
+}
+.information2{
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+.information4{
+    color: #FFFFFF;
+    display: block;
+    margin-left: 34px;
+}
+.information3{
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+.information1{
+    font-size: 18px;
+    color: green;
+}
+.questions-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 190px;
+}
+.questions2{
+    width: 440px;
+}
+.questions{
+    color: white;
+    display: flex;
+    width: 220px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.questions-wrapper-send{
+    color: #FFFFFF;
+    background-color: green;
+    margin-top: 10px;
+    width: 222px;
+    height: 40px;
+    display: inline-flex;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    border: green ;
+    border-radius: 10px;
+}
+.questions1{
+    color: green;
+    font-size: 18px;
+}
+.flowers-shop{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.information-wrapper-wrapper{
+    display: block;
+    width: 1920px;
+    height: 700px;
+}
+.name{
+    width: 218px;
+}
