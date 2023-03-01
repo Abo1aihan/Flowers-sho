@@ -228,6 +228,9 @@ body{
     max-width: 100%;
     width: 1920px;
     height: 618px;
+    background-image: url('./background/flower-1.png'), url('./background/flower-2.png');
+    background-repeat: no-repeat;
+    background-position: -20px  -200px, right bottom;
     
 }
 .order{
